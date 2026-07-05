@@ -119,6 +119,6 @@ const observerReveal = new IntersectionObserver((entries) => {
       observerReveal.unobserve(entry.target); // anima só uma vez
     }
   });
-}, { threshold: 0.2, rootMargin: '0px 0px -15% 0px' });
+}, { threshold: 0.15 });
 
 elementosReveal.forEach(el => observerReveal.observe(el));
