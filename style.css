@@ -512,7 +512,7 @@ footer{ padding: 44px 0 28px; }
 /* ANIMAÇÕES AO ROLAR */
 .reveal{
   opacity: 0;
-  transform: translateY(60px);
+  transform: translateY(20px);
   transition: opacity .9s ease, transform .9s ease;
 }
 .reveal.visivel{
